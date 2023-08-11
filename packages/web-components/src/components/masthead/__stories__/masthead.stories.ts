@@ -117,6 +117,7 @@ export const Default = (args) => {
         `
       : html`
           <dds-masthead-container
+            data-endpoint="${dataEndpoints['v2.1']}"
             selected-menu-item="${ifNonNull(selectedMenuItem)}"
             user-status="${ifNonNull(userStatus)}"
             searchPlaceholder="${ifNonNull(searchPlaceholder)}"
